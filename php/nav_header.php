@@ -1,7 +1,7 @@
 	<!-- NAV MENU -->
 	<!-- ####################### -->	
 
-	<nav class="navbar custom_nav" role="navigation">
+	<nav class="navbar custom_nav" id="navbar_spy" role="navigation">
 		<div class="container">			
 	  <!-- Brand and toggle get grouped for better mobile display -->
 	  <div class="navbar-header">

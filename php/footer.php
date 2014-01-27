@@ -67,29 +67,6 @@
     <script type="text/javascript" src="js/jquery.js"></script>    
     <script type="text/javascript" src="js/bootstrap.js"></script>	
 	<script type="text/javascript" src="js/bookmarkscroll.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
 
-	<script>
-		$(document).ready(function() {
-		  var navpos = $('.navbar').offset();
-		  console.log(navpos.top);
-		    $(window).bind('scroll', function() {
-		      if ($(window).scrollTop() > navpos.top) {
-		        $('.navbar').addClass('navbar-fixed-top');
-		        console.log("added");
-		       }
-		       else {
-		         $('.navbar').removeClass('navbar-fixed-top');
-		         console.log("remove");
-		       }
-		    });
-		});		
 
-	    // $(window).bind('scroll', function() {
-     //     if ($(window).scrollTop() > 50) {
-     //         $('.navbar').addClass('navbar-fixed-top');
-     //     }
-     //     else {
-     //         $('.navbar').removeClass('navbar-fixed-top');
-     //     }
-    	// });
-	</script>

@@ -5,7 +5,7 @@
 	<?php include 'php/header.php';?>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 	<div class="home"></div>
 
 	<!-- Large Image -->
@@ -17,7 +17,7 @@
 			<img src="img/logo_large.png" alt="">
 			<h1>Welcome to Our Creative Space</h1>
 			<!-- <div class="seperator"></div> -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa exercitationem fugit doloremque atque sequi. Dignissimos, porro, voluptates tempora error incidunt beatae dolorem ad amet officiis blanditiis quibusdam voluptatum ullam dolorum!</p>	
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa exercitationem fugit doloremque atque sequi. Dignissimos, porro, voluptates tempora error incidunt beatae dolorem ad amet officiis blanditiis!</p>	
 			<a href="#contact_pt" class="btn btn-lg btn-success">Get Started</a>
 		</div>		
 	</div>
@@ -45,7 +45,7 @@
 	<!-- OUR APPS SLIDER UNIT -->
 	<!-- ####################### -->	
 
-	<div class="apps_bg">
+	<div class="apps_bg" id="work_pt">
 		<div class="container">
 			<a name="work_pt"></a>
 			<div class="seperator"></div>
@@ -78,7 +78,7 @@
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>DLCreative Portfolio</h3>
-						<h4>davidlaucreative.com</h4>
+						<h4>Davidlaucreative.com</h4>
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
@@ -92,21 +92,21 @@
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>Codepocalypse</h3>
-						<h4>codepocalypse.com</h4>
+						<h4>Codepocalypse.com</h4>
 					</div>	
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>TeachBeats</h3>
-						<h4>teachbeats.org</h4>
+						<h4>Teachbeats.org</h4>
 					</div>										
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>Lynn's Cupcakes</h3>
-						<h4>lynnscakes.co.nz</h4>
+						<h4>Lynnscakes.co.nz</h4>
 					</div>																				
 				</div>
 		</div>
