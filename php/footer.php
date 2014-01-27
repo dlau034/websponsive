@@ -6,51 +6,36 @@
 	<div class="contact_bg"> 
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 address_wrapper">					
-					<h3><span class="icon_send glyphicon glyphicon-earphone"></span> &nbsp 0800-123-APPS</h3>
-					
-					<div class="location_box">
-						<address class="location_text col-md-6">
-						  <strong>AUCKLAND OFFICE</strong><br>
-						  3A 47 High Street<br>
-						  Auckland<br>
-						  New Zealand<br>
-						  <abbr title="Phone">Phone:</abbr> 09 281 5603
-						</address>									
-						<div class="map_box col-md-6 ">							
-						</div>
-					</div>	
+				<div class="col-sm-offset-2 col-sm-3">					
+					<ul>
+						<li><a href="#what_pt">What We Do</a></li>
+						<li><a href="#work_pt">Work</a></li>
+						<li><a href="#tech_pt">Our Tech</a></li>
+						<li><a href="#about_pt">About Us</a></li>
+						<li><a href="#contact_pt">Get Started</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">					
+					<address>					  
+						Physical Address<br>
+					  	349 Hillsborough Road<br>
+					  	Auckland<br>
+					  <abbr title="Phone">Ph:</abbr> (020) 402-77355
+					</address>
 
-					<div class="location_box">
-						<address class="location_text col-md-6">
-						  <strong>WELLINGTON OFFICE</strong><br>
-						  Lv 16, 157 Lambton Quay<br>
-						  Wellington<br>
-						  New Zealand<br>					  
-						  <abbr title="Phone">Phone:</abbr> 021 321-936
-						</address>					
-						<div class="map_box col-md-6 ">							
-						</div>
-					</div>	
+					<address>
+  						Email<br>
+  						<a href="mailto:#">contact@websponsive.co.nz</a>
+					</address>
 
 				</div>
-				<div class="col-sm-6 form_wrapper">				
-					<form role="form">						
-						<h3><span class="icon_send glyphicon glyphicon-send"></span> &nbsp EMAIL US</h3>	
-					  <div class="form-group">				  
-					    <input type="text" class="form-control custom_input" id="" placeholder="Your Name">
-					  </div>
-					  <div class="form-group">				  
-					    <input type="email" class="form-control custom_input" id="" placeholder="Your Email">
-					  </div>				  
-					  <div class="form-group">				  
-					    <input type="text" class="form-control custom_input" id="" placeholder="Your Subject">
-					  </div>
-					<textarea class="form-control custom_input" rows="10" placeholder="Your Enquiry"></textarea>
-					  <button type="submit" class="btn btn-block btn-primary btn-lg pull-right btn-submit">SUBMIT ENQUIRY</button>
-					</form>
-					
-				</div>
+				<div class="col-sm-3">			
+					<ul>
+						<li><a href="#"><span class="social_icon"><i class="fa fa-facebook-square fa-lg"></i>Find us on Facebook</span></a></li>
+						<li><a href="#"><span class="social_icon"><i class="fa fa-twitter-square fa-lg"></i>Find us on Twitter</span></a></li>
+						<li><a href="#"><span class="social_icon"><i class="fa fa-linkedin-square fa-lg"></i>Find us on Linkedin</span></a></li>
+					</ul>									
+				</div>			
 			</div>
 
 			<div class="breakline"></div>		
@@ -83,3 +68,28 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>	
 	<script type="text/javascript" src="js/bookmarkscroll.js"></script>
 
+	<script>
+		$(document).ready(function() {
+		  var navpos = $('.navbar').offset();
+		  console.log(navpos.top);
+		    $(window).bind('scroll', function() {
+		      if ($(window).scrollTop() > navpos.top) {
+		        $('.navbar').addClass('navbar-fixed-top');
+		        console.log("added");
+		       }
+		       else {
+		         $('.navbar').removeClass('navbar-fixed-top');
+		         console.log("remove");
+		       }
+		    });
+		});		
+
+	    // $(window).bind('scroll', function() {
+     //     if ($(window).scrollTop() > 50) {
+     //         $('.navbar').addClass('navbar-fixed-top');
+     //     }
+     //     else {
+     //         $('.navbar').removeClass('navbar-fixed-top');
+     //     }
+    	// });
+	</script>

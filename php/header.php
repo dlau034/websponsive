@@ -4,9 +4,10 @@
 
 	<!-- Custom CSS -->
 	
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-	<!-- <link rel="stylesheet" href="css/animate.css">	 -->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	
 	<link rel="stylesheet" href="css/styles.css">	
-	<!-- <link rel="stylesheet" href="css/global.css">	 -->
+	
 	

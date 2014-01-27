@@ -8,24 +8,35 @@
 <body>
 	<div class="home"></div>
 
+	<!-- Large Image -->
+	<!-- ####################### -->	
+
+	<div class="large_image">
+		<img src="img/jpeg-4.jpg" alt="">	
+		<div class="center_text">
+			<img src="img/logo_large.png" alt="">
+			<h1>Welcome to Our Creative Space</h1>
+			<!-- <div class="seperator"></div> -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa exercitationem fugit doloremque atque sequi. Dignissimos, porro, voluptates tempora error incidunt beatae dolorem ad amet officiis blanditiis quibusdam voluptatum ullam dolorum!</p>	
+			<a href="#contact_pt" class="btn btn-lg btn-success">Get Started</a>
+		</div>		
+	</div>
+	
+
 	<!-- NAVIGATION HEADER -->
+	<!-- ####################### -->	
 	<?php include 'php/nav_header.php';?>
 	
 	<!-- FULL IMAGE UNIT -->
 	<!-- ####################### -->	
 
 	<div class="image_crop">		
-		<!-- <img src="img/sush_image.jpg" class="full_image" alt="">	 -->
 		<div class="container">
-		<h1>
-			<!-- <i class="fa fa-quote-left"></i>  -->
-			RESPONSIVE WEB<br>
-			TARGETING ALL DEVICES
-			
-			<!-- <i class="fa fa-quote-right"></i> -->
-		</h1>	
-		</div>
-	
+			<!-- <div class="seperator"></div> -->
+			<h3 class="title_text">Welcome to Our Creative Space</h3>
+			<!-- <div class="seperator"></div> -->
+		</div>		
+		<img src="img/image_computer.png" class="full_image img-responsive">
 	</div>		
 
 	<!-- HOME PLATFORMS UNIT -->
@@ -36,78 +47,172 @@
 
 	<div class="apps_bg">
 		<div class="container">
-			<a href="apps.php"><h3 class="title_text">OUR APPS</h3></a>
+			<a name="work_pt"></a>
+			<div class="seperator"></div>
+			<h3 class="title_text">Our Work</h3>
 			
 				<div class="row apps_wrapper">
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
-							<img class="img-thumbnail" src="http://placehold.it/300x300" alt="">							
+							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
-						<h3>Unitec Mobile App</h3>
-						<h4>UNITEC</h4>
+						<h3>Blockscouter</h3>
+						<h4>GatheringUP</h4>
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
-							<img class="img-thumbnail" src="http://placehold.it/300x300" alt="">							
+							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
-						<h3>Unitec Mobile App</h3>
-						<h4>UNITEC</h4>
+						<h3>Thriftly Web & Mobile</h3>
+						<h4>Thriftly</h4>
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
-							<img class="img-thumbnail" src="http://placehold.it/300x300" alt="">							
+							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
-						<h3>Unitec Mobile App</h3>
-						<h4>UNITEC</h4>
+						<h3>Techkinesis</h3>
+						<h4>GatheringUP</h4>
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
 						<div>
-							<img class="img-thumbnail" src="http://placehold.it/300x300" alt="">							
+							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
-						<h3>Unitec Mobile App</h3>
-						<h4>UNITEC</h4>
+						<h3>DLCreative Portfolio</h3>
+						<h4>davidlaucreative.com</h4>
 					</div>
+					<div class="col-sm-3 col-xs-6 apps_item">
+						<div>
+							<img class="" src="http://placehold.it/300x300" alt="">							
+						</div>						
+						<h3>RedRover Web & Mobile</h3>
+						<h4>RedRover.co</h4>
+					</div>	
+					<div class="col-sm-3 col-xs-6 apps_item">
+						<div>
+							<img class="" src="http://placehold.it/300x300" alt="">							
+						</div>						
+						<h3>Codepocalypse</h3>
+						<h4>codepocalypse.com</h4>
+					</div>	
+					<div class="col-sm-3 col-xs-6 apps_item">
+						<div>
+							<img class="" src="http://placehold.it/300x300" alt="">							
+						</div>						
+						<h3>TeachBeats</h3>
+						<h4>teachbeats.org</h4>
+					</div>										
+					<div class="col-sm-3 col-xs-6 apps_item">
+						<div>
+							<img class="" src="http://placehold.it/300x300" alt="">							
+						</div>						
+						<h3>Lynn's Cupcakes</h3>
+						<h4>lynnscakes.co.nz</h4>
+					</div>																				
 				</div>
 		</div>
 	</div>
 
-	<!-- BLOG UNIT -->
+	<!-- ABOUT/BLOG UNIT -->
 	<!-- ####################### -->	
 
 	<div class="blog_bg">
-		<div class="container">
-			<a href="blog.php">
-				<h3 class="title_text">BLOGS</h3>	
-			</a>
+		<div class="container">	
+		<a name="about_pt"></a>	
+			<div class="seperator"></div>	
+			<h3 class="title_text">About Us</h3>	
 			
 			<div class="row blog_wrapper">
-				<div class="col-md-4 col-sm-6 blog_item">									<div class="blog_box img-thumbnail">
-						<img src="http://placehold.it/300x170" alt="">	
-						<a href="#"><h3>BLOG ARTICLE</h3></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, est ipsum consequuntur unde eaque quas quasi magnam architecto qui reiciendis neque quis. Hic quisquam assumenda officia repellat eveniet sed ullam.
-						</p>				
+				<div class="col-sm-4 blog_item">					
+					<div class="blog_box">
+						<img src="http://placehold.it/320x250" alt="">	
 					</div>	
 				</div>
-
-				<div class="col-md-4 col-sm-6 blog_item">									<div class="blog_box img-thumbnail">
-						<img src="http://placehold.it/300x170" alt="">	
-						<a href="#"><h3>BLOG ARTICLE</h3></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, est ipsum consequuntur unde eaque quas quasi magnam architecto qui reiciendis neque quis. Hic quisquam assumenda officia repellat eveniet sed ullam.
-						</p>				
-					</div>	
+				<div class="col-sm-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, dicta mollitia tenetur et voluptate cum fugiat impedit dolore hic doloribus sed at accusantium vitae sit ipsa necessitatibus tempore minus ex velit laudantium natus blanditiis omnis nesciunt libero reprehenderit possimus harum.
+					</br>
+					</br>
+					Accusantium vitae sit ipsa necessitatibus tempore minus ex velit laudantium natus blanditiis omnis nesciunt libero reprehenderit possimus harumminus ex velit laudantium natus blanditiis omnis nesciunt libero reprehenderit possimus harum.
+					</br>
+					</br>
+					Accusantium vitae sit ipsa necessitatibus tempore minus ex velit laudantium natus blanditiis omnis nesciunt libero reprehenderit possimus harumminus ex velit laudantium natus blanditiis omnis nesciunt libero reprehenderit possimus harum.
+					</p>
 				</div>
-
-				<div class="col-md-4 col-sm-6 blog_item">									<div class="blog_box img-thumbnail">
-						<img src="http://placehold.it/300x170" alt="">	
-						<a href="#"><h3>BLOG ARTICLE</h3></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, est ipsum consequuntur unde eaque quas quasi magnam architecto qui reiciendis neque quis. Hic quisquam assumenda officia repellat eveniet sed ullam.
-						</p>				
-					</div>	
-				</div>
-
 			</div>
 		</div>
 	</div>
+
+	<!-- TECH UNIT -->
+	<!-- ####################### -->	
+
+	<div class="tech_bg">
+		<div class="container">
+			<a name="tech_pt"></a>	
+			<div class="seperator"></div>				
+			<h3 class="title_text">Our Technology</h3>	
+			<div class="row">
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<p class="col-sm-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
+					</p>
+				</div>
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<p class="col-sm-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
+					</p>
+				</div>
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<p class="col-sm-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
+					</p>
+				</div>	
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<p class="col-sm-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
+					</p>
+				</div>
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<p class="col-sm-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
+					</p>
+				</div>
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<p class="col-sm-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
+					</p>
+				</div>									
+			</div>			
+		</div>
+	</div>
+
+	<!-- CONTACT US UNIT -->
+	<!-- ####################### -->	
+
+	<div class="contact_us_bg" >
+		<div class="container">
+			<a name="contact_pt"></a>
+			<div class="seperator"></div>
+			<h3 class="title_text">Get Started</h3>	
+			<div class="row">
+				<form class="col-sm-offset-3 col-sm-6" role="form">													
+						  <div class="form-group">				  
+						    <input type="text" class="form-control input-lg custom_input" id="" placeholder="What's your name?">
+						  </div>
+						  <div class="form-group">				  
+						    <input type="email" class="form-control input-lg custom_input" id="" placeholder="Your Email Address">
+						  </div>				  
+						<textarea class="form-control input-lg custom_input" rows="10" placeholder="Tell Us About Your Project"></textarea>
+						  <button type="submit" class="btn btn-block btn-success btn-lg pull-right btn-submit">Send to Us!</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- FOOTER UNIT -->
 	<!-- ####################### -->

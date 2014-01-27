@@ -6,35 +6,36 @@
 /* ############################ */
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #f9f9f9;
 	font-size: 15px;
 	line-height: 1.5;
+	font-weight: 100;
 }
 h1 {
 
 }
 h2 {
 	margin: 0;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-family: 'Josefin Slab', serif;
+	/*font-weight: 700;*/
 }
 h3 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Josefin Slab', serif;
 	margin: 0;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	font-size: 1.8em;
 }
 h4 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Josefin Slab', serif;
 }
 .title_text {
 	color: #333;
 	text-align: center;	
-	font-size: 4em;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	margin-bottom: 0.5em;
+	font-size: 2.5em;
+	font-family: 'Josefin Slab', serif;
+	/*font-weight: 700;*/
+	margin-bottom: 1em;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -48,7 +49,9 @@ h4 {
     -ms-transform: scale(1.05);
     transform: scale(1.05);	
 }
-
+.fixed {
+	position: fixed;
+}
 
 @media (max-width: 480px) {
 	.title_text {
@@ -63,8 +66,15 @@ a:hover {
 .breakline {
 	height: 1px;
 	width: 100%;
+	background-color: white;
+	clear: both;
+}
+.seperator {
+	height: 1px;
+	width: 100%;
 	background-color: #999;
 	clear: both;
+	margin-bottom: 5em;
 }
 .dividline {
 	height: 50px;
@@ -77,33 +87,69 @@ a:hover {
 
 .custom_nav {
 	margin-bottom: 0;
-	border-radius: 0;
-	border: none;	
-	background-color: #333;
+	border-radius: 0;	
+	border-top: 8px solid #2E9C6A;
+	/*background-color: white;*/
+	background-color: rgba(255,255,255,0.9);
+	border-bottom: 0;
+}
+
+/* Large Image */
+/* ############################ */
+
+.large_image {
+	overflow: hidden;
+}
+
+.large_image > img {
+	height: 99%;
+	overflow: hidden;
+}
+.large_image .center_text {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	color: white;	
+}
+.large_image .center_text p {
+	/*background-color: red;*/
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+} 
+.large_image .center_text button {
+	margin: 0 auto;
+	display: block;
+}
+.large_image .center_text h1 {
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	color: white;
+	font-size: 3.5em;
 }
 
 /* Nav Bar */
 /* ############################ */
 
 .nav_text {	
-	font-family: 'Oswald';
-	font-size: 1em;
-	color: #f9f9f9;
-	font-weight: 700;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #333;
 }
 .nav_text:hover {
 	color: white!important;
-	background-color: #75D0F3!important;
+	background-color: #2E9C6A!important;
 }
 
 .brand_logo {
-	/*background-image: url("../img/sush_logo.png");	*/
-	/*width: 260px;*/
-	/*text-indent: -999px;*/
-	/*background-repeat: no-repeat;	*/
-	/*background-position: center;*/
-	/*background-size: 100%;*/
-	font-family: 'Oswald', sans-serif;
+	background-image: url("../img/logo.png");	
+	width: 230px;
+	text-indent: -999px;	
+	background-position: center;	
+	background-repeat: no-repeat;
 	font-weight: 700;
 	color: white;
 }
@@ -116,11 +162,10 @@ a:hover {
 }
 .icon_send {
 	font-size: 1.8em;
-
 }
 
 .custom_toggle {
-	background-color: #75D0F3;
+	background-color: #2E9C6A;
 	border-radius: 0;
 	border: none;
 }
@@ -141,7 +186,6 @@ a:hover {
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
-	/*border-bottom: 5px solid #026FB3;	*/
 }
 .btn-send a:hover {
 	padding-top: 30px; 
@@ -195,10 +239,6 @@ a:hover {
 	padding-bottom: 5em;
 	position: relative;
 }
-.apps_bg .title_text {
-	color: white;
-}
-
 .apps_item > div  {
 	overflow: hidden;
 }
@@ -208,12 +248,14 @@ a:hover {
 .apps_item h3 {
 	text-align: center;
 	margin-top: 1em;	
-	color: white;
 }
 .apps_item h4 {
 	text-align: center;
-	font-weight: 700;
-	color: white;
+	font-weight: 700;s
+}
+.apps_item {	
+	height: 420px;
+
 }
 .apps_wrapper {
 	margin-top: 2em;
@@ -224,7 +266,7 @@ a:hover {
 /* ############################ */
 
 .blog_bg {
-	background-color: #f1f1f1;
+	background-color: white;
 	padding-top: 5em;
 	padding-bottom: 5em;		
 }
@@ -262,7 +304,7 @@ a:hover {
 /* ############################ */
 
 .home {
-	background-image: url("../img/bg.jpg");
+	/*background-image: url("../img/bg.jpg");*/
 	position: fixed;
 	width: 2000px;
 	height: 100%;
@@ -270,9 +312,8 @@ a:hover {
 	background-size: 100%;
 }
 .image_crop {
-	height: 600px;
-	overflow: hidden;
-	/*background-color: rgba(255,255,255,0.3);*/
+	margin-top: 4em;
+	margin-bottom: 4em;
 }
 .image_crop h1 {
 	font-weight: 700;
@@ -296,37 +337,50 @@ a:hover {
 	}		
 }
 .full_image {
-	width: 100%;
+	margin: 0 auto;
+	display: block;
 }
+
+/* TECH UNIT */ 
+/* ############################ */
+
+
+.tech_unit {	
+	margin-bottom: 2em;	
+	/*background-color: red;*/
+	/*height: 4em;*/
+}
+.tech_unit img {
+
+}	
 
 /* CONTACT UNIT */ 
 /* ############################ */
 
 .contact_bg {
-	background-image: url("../img/tweed.png");
-	color: #f1f1f1;
-	/*-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);*/
-	/*-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);*/
-	/*box-shadow: 0px 0px 10px rgba(0,0,0,0.5);		*/
+	background-color: #444;
+	font-size: 0.8em;
+}
+.contact_bg .row {
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+.contact_bg li {
+	list-style-type: none;
+	
+}
+.contact_bg li a, .contact_bg address {
+	color: white;
+	font-weight: 400;	
+}
+.contact_us_bg {
+	margin-top: 4em;
+	margin-bottom: 4em;
 }
 
 .form_wrapper {
 	margin-top: 3em;
 	margin-bottom: 3em;
-}
-.address_wrapper {
-	margin-top: 3em;
-	margin-bottom: 3em;	
-}
-.location_text {
-	display: inline;
-	float: left;
-	width: 170px;
-	margin-right: 2em;
-	padding: 0;
-}
-.location_box {
-	margin-bottom: 2em;
 }
 .custom_input {
 	border-radius: 0;
@@ -340,15 +394,7 @@ a:hover {
 	font-weight: 700;
 	clear: both;
 }
-.map_box {
-	display: block;
-	position: relative;
-	margin-bottom: 2em;
-	padding: 0;
-}
-.map_box iframe {
-	width: 100%;
-}
+
 /* FOOTER UNIT */ 
 /* ############################ */
 
@@ -375,7 +421,7 @@ a:hover {
 	margin-right: 5px;
 }
 .footer_text span {
-	font-size: 0.85em;	
+	font-size: 0.9em;	
 }
 .footer_text {
 	margin-top: 1.5em;
