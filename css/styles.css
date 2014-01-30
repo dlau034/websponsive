@@ -8,7 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f9f9f9;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 100;
 }
@@ -27,7 +27,8 @@ h3 {
 	font-size: 1.8em;
 }
 h4 {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Josefin Slab', serif;	
+	font-weight: 100;
 }
 .title_text {
 	color: #333;
@@ -49,6 +50,12 @@ h4 {
     -ms-transform: scale(1.05);
     transform: scale(1.05);	
 }
+@media screen and (min-width: 768px) {
+	.modal-dialog {
+		width: 720px;
+	}	
+}
+
 .fixed {
 	position: fixed;
 }
@@ -217,7 +224,7 @@ a:hover {
 	margin-bottom: 2em;
 }
 .platform_bg {
-	background-color: white;
+	/*background-color: white;*/
 	padding-top: 3em;
 	padding-bottom: 3em;
 	position: relative;
@@ -235,12 +242,23 @@ a:hover {
 	
 .apps_bg {
 	padding-top: 5em;
-	padding-bottom: 5em;
+	/*padding-bottom: 5em;*/
 	position: relative;
 }
 .apps_item > div  {
 	overflow: hidden;
 }
+.app_box {
+	background-color: #f1f1f1;
+	padding: 0.4em;
+	display: block;
+	color: #333;
+}
+.app_box:hover {
+	background-color: #2E9C6A;
+	color: white!important
+}
+
 .apps_item img {
 	width: 100%;
 }
@@ -248,9 +266,9 @@ a:hover {
 	text-align: center;
 	margin-top: 1em;	
 }
-.apps_item h4 {
+.apps_item p {
 	text-align: center;
-	font-weight: 700;s
+	/*font-weight: 100;*/
 }
 .apps_item {	
 	height: 420px;
@@ -265,7 +283,7 @@ a:hover {
 /* ############################ */
 
 .blog_bg {
-	background-color: white;
+	/*background-color: white;*/
 	padding-top: 5em;
 	padding-bottom: 5em;		
 }
@@ -292,8 +310,8 @@ a:hover {
 	padding: 0em 0.2em;
 }
 .blog_box {
-	background-color: white;
-	margin: 0em 1em;
+	/*background-color: white;*/
+	/*margin: 0em 1em;*/
 }
 .blog_box:hover {
 	background-color: #B1E2F5;
@@ -343,6 +361,11 @@ a:hover {
 /* TECH UNIT */ 
 /* ############################ */
 
+.tech_unit h4{
+	font-weight: 500;
+	margin: 0;
+	font-size: 1.5em;
+}
 
 .tech_unit {	
 	margin-bottom: 2em;	
@@ -392,6 +415,31 @@ a:hover {
 	margin-bottom: 1em;
 	font-weight: 700;
 	clear: both;
+}
+
+/* APP SINGLE MODAL UNIT */ 
+/* ############################ */
+
+.app_single .modal-body {
+	padding:0;
+}
+.app_single .modal-body img{ 
+	width: 100%;
+}
+.app_single .modal-content { 	
+	border-radius: 0;
+}
+.app_single .modal-footer {
+	border-top:0;
+	margin-top: 0;
+}
+.app_description {
+	padding: 1em;
+}
+
+.app_single .carousel-control {
+	background-image:none;
+	text-shadow: none;
 }
 
 /* FOOTER UNIT */ 

@@ -53,60 +53,76 @@
 			
 				<div class="row apps_wrapper">
 					<div class="col-sm-3 col-xs-6 apps_item">
+						<a class="app_box" data-toggle="modal" data-target="#myModal">
+							<div>
+								<img class="" src="http://placehold.it/300x300" alt="">				
+							</div>						
+							<h3>Blockscouter</h3>
+							<p>GatheringUP</p>
+						</a>
+					</div>
+					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
-						<h3>Blockscouter</h3>
-						<h4>GatheringUP</h4>
+						<h3>Thriftly Web & Mobile</h3>						
+						<p>Thriftly</p>
+						</a>						
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
-						<div>
-							<img class="" src="http://placehold.it/300x300" alt="">							
-						</div>						
-						<h3>Thriftly Web & Mobile</h3>
-						<h4>Thriftly</h4>
-					</div>
-					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>Techkinesis</h3>
-						<h4>GatheringUP</h4>
+						<p>GatheringUP</p>
+						</a>
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
-						<h3>DLCreative Portfolio</h3>
-						<h4>Davidlaucreative.com</h4>
+						<h3>DLCreative</h3>
+						<p>Davidlaucreative.com</p>
+						</a>
 					</div>
 					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>RedRover Web & Mobile</h3>
-						<h4>RedRover.co</h4>
+						<p>RedRover.co</p>
+						</a>
 					</div>	
 					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>Codepocalypse</h3>
-						<h4>Codepocalypse.com</h4>
+						<p>Codepocalypse.com</p>
+						</a>
 					</div>	
 					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>TeachBeats</h3>
-						<h4>Teachbeats.org</h4>
+						<p>Teachbeats.org</p>
+						</a>						
 					</div>										
 					<div class="col-sm-3 col-xs-6 apps_item">
+						<a href="#" class="app_box">
 						<div>
 							<img class="" src="http://placehold.it/300x300" alt="">							
 						</div>						
 						<h3>Lynn's Cupcakes</h3>
-						<h4>Lynnscakes.co.nz</h4>
+						<p>Lynnscakes.co.nz</p>
+						</a>						
 					</div>																				
 				</div>
 		</div>
@@ -152,40 +168,58 @@
 			<div class="row">
 				<div class="tech_unit col-sm-4">
 					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
-					<p class="col-sm-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
-					</p>
+					<div class="col-sm-8">
+						<h4>Content Managment System</h4> 
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						</p>
+					</div>					
 				</div>
 				<div class="tech_unit col-sm-4">
 					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
-					<p class="col-sm-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
-					</p>
+					<div class="col-sm-8">
+						<h4>Bootstrap Responsive Framework</h4> 
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						</p>
+					</div>					
 				</div>
 				<div class="tech_unit col-sm-4">
 					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
-					<p class="col-sm-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
-					</p>
-				</div>	
-				<div class="tech_unit col-sm-4">
-					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
-					<p class="col-sm-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
-					</p>
+					<div class="col-sm-8">
+						<h4>Web Mobile Frameworks</h4> 
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						</p>
+					</div>					
 				</div>
 				<div class="tech_unit col-sm-4">
 					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
-					<p class="col-sm-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
-					</p>
+					<div class="col-sm-8">
+						<h4>HTML5/CSS3/Javascript</h4> 
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						</p>
+					</div>					
 				</div>
 				<div class="tech_unit col-sm-4">
 					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
-					<p class="col-sm-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aspernatur, soluta, nisi explicabo impedit maiores porro.
-					</p>
-				</div>									
+					<div class="col-sm-8">
+						<h4>Ruby on Rails</h4> 
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						</p>
+					</div>					
+				</div>
+				<div class="tech_unit col-sm-4">
+					<img class="col-sm-4" src="http://placehold.it/80x80" alt="">	
+					<div class="col-sm-8">
+						<h4>Phonegap</h4> 
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						</p>
+					</div>					
+				</div>
 			</div>			
 		</div>
 	</div>
@@ -193,26 +227,12 @@
 	<!-- CONTACT US UNIT -->
 	<!-- ####################### -->	
 
-	<div class="contact_us_bg" >
-		<div class="container">
-			<a name="contact_pt"></a>
-			<div class="seperator"></div>
-			<h3 class="title_text">Get Started</h3>	
-			<div class="row">
-				<form class="col-sm-offset-3 col-sm-6" role="form">													
-						  <div class="form-group">				  
-						    <input type="text" class="form-control input-lg custom_input" id="" placeholder="What's your name?">
-						  </div>
-						  <div class="form-group">				  
-						    <input type="email" class="form-control input-lg custom_input" id="" placeholder="Your Email Address">
-						  </div>				  
-						<textarea class="form-control input-lg custom_input" rows="10" placeholder="Tell Us About Your Project"></textarea>
-						  <button type="submit" class="btn btn-block btn-success btn-lg pull-right btn-submit">Send to Us!</button>
-				</form>
-			</div>
-		</div>
-	</div>
+	<?php include 'php/app_single.php';?>
 
+	<!-- CONTACT US UNIT -->
+	<!-- ####################### -->	
+
+	<?php include 'php/contact.php';?>
 
 	<!-- FOOTER UNIT -->
 	<!-- ####################### -->
